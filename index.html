@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGVP Weather | Forecasting</title>
+    <link
+      rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/previews/023/258/081/original/weather-icon-sun-and-cloud-icon-png.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Enter a location (e.g., city)"
+        />
+        <button><i class="bi bi-search"></i></button>
+      </div>
+
+      <div class="weather loading">
+        <div class="flex">
+          <i class="bi bi-geo-alt-fill"></i>
+          <h2 class="city"></h2>
+        </div>
+        <h1 class="temp"></h1>
+        <div id="unit-selector">
+          <button
+            class="unit-option"
+            data-unit="celsius"
+            onclick="toggleTemperatureUnit('celsius')"
+          >
+            Celsius (°C)
+          </button>
+          <hr style="height: 30px" />
+          <button
+            class="unit-option"
+            data-unit="fahrenheit"
+            onclick="toggleTemperatureUnit('fahrenheit')"
+          >
+          Fahrenheit (°F)
+          </button>
+        </div>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+            class="icon"
+          />
+          <div class="description"></div>
+        </div>
+        <hr style="width: 80px" />
+        <div class="info">
+          <div class="hum">
+            <i class="bi bi-droplet-fill"></i>
+            <div class="humidity"></div>
+            <p>Humidity</p>
+          </div>
+          <div class="speed">
+            <i class="bi bi-wind"></i>
+            <div class="wind"></div>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+      <center><button class="loc"><i class="bi bi-crosshair2"></i>Use precise location</button></center>
+    </div>
+  </body>
+</html>
