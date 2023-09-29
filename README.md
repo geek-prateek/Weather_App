@@ -1,10 +1,14 @@
 # Weather App
 
-The Weather App allows users to check the current weather for a location. Users can enter a location (e.g., city) or use their geolocation to fetch weather information. The app displays weather data in both Celsius and Fahrenheit and handles error cases gracefully.
+The Weather App allows users to check the current weather for a location. Users can enter a location (e.g., city) or use their geolocation to fetch weather information. The app displays weather data in Celsius and Fahrenheit and gracefully handles error cases.
+
+<img width="944" alt="Screenshot 2023-09-29 173150" src="https://github.com/geek-prateek/Weather_App/assets/71647878/158b7909-79b4-41b3-95d9-05239482181e">
+<img width="635" alt="Screenshot 2023-09-29 173235" src="https://github.com/geek-prateek/Weather_App/assets/71647878/74e247c6-9492-4913-9d10-0e2e1c481a5a">
+
 
 ## Features and Functionality 
 
-- Enter a city name and click on search button to fetch current weather data.
+- Enter a city name and click on the search button to fetch current weather data.
 - Use the "Use precise location" button to fetch weather data based on your geolocation.
 - Switch between temperature units (Celsius and Fahrenheit) using their specific button.
 - User-friendly error handling for location not found or API request issues.
@@ -12,7 +16,7 @@ The Weather App allows users to check the current weather for a location. Users 
 
 ## Usage Instructions
 
-1. Clone or download the project repository from [GitHub link](https://github.com/yourusername/weather-app).
+1. Clone or download the project repository from "https://github.com/geek-prateek/Weather_App".
 
 2. Obtain an OpenWeatherMap API key by signing up at "https://openweathermap.org/api".
 
@@ -28,5 +32,5 @@ The Weather App allows users to check the current weather for a location. Users 
 
 ## Credits
 
-This Weather App is created by Prateek Kumar. It uses the OpenWeatherMap API for weather data.
+Prateek Kumar created this Weather App. It uses the OpenWeatherMap API for weather data.
 
