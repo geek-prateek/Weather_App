@@ -7,6 +7,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #222;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-size: 120%;
   flex-wrap: wrap;
 }
@@ -184,27 +187,4 @@ h1.temp {
 #unit-selector > a {
   text-decoration: none;
   color: aqua;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-      font-size: 100%;
-    }
-  
-    .card {
-      max-width: 100%;
-    }
-  
-    .search > input {
-      max-width: 100%;
-    }
-  
-    .search > button {
-      height: 40px;
-      width: 40px;
-    }
-  
-    #unit-selector > button {
-      width: 120px;
-    }
 }
